@@ -13,6 +13,7 @@
 		E35850B51E5FE142005EADE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35850B41E5FE142005EADE4 /* Assets.xcassets */; };
 		E35850B81E5FE142005EADE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35850B61E5FE142005EADE4 /* LaunchScreen.storyboard */; };
 		E35850C31E5FE142005EADE4 /* JKJavascriptToiOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35850C21E5FE142005EADE4 /* JKJavascriptToiOSDemoTests.swift */; };
+		E35850CF1E5FE30B005EADE4 /* sampleHTMLCode.html in Resources */ = {isa = PBXBuildFile; fileRef = E35850CE1E5FE30B005EADE4 /* sampleHTMLCode.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E35850BE1E5FE142005EADE4 /* JKJavascriptToiOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKJavascriptToiOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35850C21E5FE142005EADE4 /* JKJavascriptToiOSDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKJavascriptToiOSDemoTests.swift; sourceTree = "<group>"; };
 		E35850C41E5FE142005EADE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35850CE1E5FE30B005EADE4 /* sampleHTMLCode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleHTMLCode.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E35850AC1E5FE142005EADE4 /* JKJavascriptToiOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E35850CD1E5FE2F8005EADE4 /* HTML */,
 				E35850AD1E5FE142005EADE4 /* AppDelegate.swift */,
 				E35850AF1E5FE142005EADE4 /* ViewController.swift */,
 				E35850B11E5FE142005EADE4 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				E35850C41E5FE142005EADE4 /* Info.plist */,
 			);
 			path = JKJavascriptToiOSDemoTests;
+			sourceTree = "<group>";
+		};
+		E35850CD1E5FE2F8005EADE4 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				E35850CE1E5FE30B005EADE4 /* sampleHTMLCode.html */,
+			);
+			name = HTML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35850CF1E5FE30B005EADE4 /* sampleHTMLCode.html in Resources */,
 				E35850B81E5FE142005EADE4 /* LaunchScreen.storyboard in Resources */,
 				E35850B51E5FE142005EADE4 /* Assets.xcassets in Resources */,
 				E35850B31E5FE142005EADE4 /* Main.storyboard in Resources */,
